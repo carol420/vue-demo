@@ -10,7 +10,7 @@ export default [
       },
       {
         title: '走势图',
-        route: '/trend chart'
+        route: '/trend-chart'
       }
     ]
   },
@@ -19,33 +19,33 @@ export default [
     title: '平台管理',
     icon: 'android-cart',
     children: [
+      // {
+      //   title: '商家管理',
+      //   route: '/merchants'
+      // },
+      // {
+      //   title: '用户管理',
+      //   route: '/users'
+      // },
       {
-        title: '商家列表',
-        route: '/merchants'
-      },
-      {
-        title: '用户列表',
-        route: '/users'
-      },
-      {
-        title: '商品列表',
+        title: '商品管理',
         route: '/products'
       },
       {
-        title: '订单列表',
+        title: '订单管理',
         route: '/orders'
       }
     ]
-  },
-  {
-    name: 'info',
-    title: '个人中心',
-    icon: 'android-settings',
-    children: [
-      {
-        title: '个人信息',
-        route: '/info'
-      }
-    ]
   }
+  // {
+  //   name: 'info',
+  //   title: '个人中心',
+  //   icon: 'android-settings',
+  //   children: [
+  //     {
+  //       title: '个人信息',
+  //       route: '/info'
+  //     }
+  //   ]
+  // }
 ]
